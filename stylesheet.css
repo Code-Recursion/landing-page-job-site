@@ -1,0 +1,104 @@
+html, body {
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+.nav-item {
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-style: bold;
+  font-weight: bolder;
+}
+
+#navbarDropdownMenuLink {
+  background-color: rgb(173, 238, 111);
+  color: white;
+  font-weight: bolder;
+  border-radius: 3px;
+  padding: 5px;
+  /* display: inline; */
+}
+
+.jumbotron {
+  background-image: linear-gradient(blue, white);
+  text-align: center;
+  margin-top: 60px;
+}
+
+.jumbotron h2 {
+  margin: auto;
+  width: 75%;
+}
+#email {
+  width: 300px;
+}
+
+#appSummary {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.jumbotron form {
+  width: 350px;
+  margin: auto;
+}
+
+.about-us {
+  overflow: auto;
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  padding: 40px;
+  background-image: url("https://images.livemint.com/rf/Image-621x414/LiveMint/Period1/2013/08/17/Photos/team_work--621x414.jpg");
+  margin: auto;
+}
+
+.about-us p {
+  width: 65%;
+  background: rgb(218, 241, 248);
+  color: black;
+  padding: 20px;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ 
+}
+
+.about-us h1 {
+  padding: 15px;
+  color: black;
+  margin: 25px;
+  background: white;
+  display: block;
+  width: 65%;
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+
+.imp-alerts {
+    width:500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    width: 75%;
+    background-image: linear-gradient(45deg, rgb(156, 226, 250), lightpink);
+    border:2px solid black;
+    margin:auto;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.imp-alerts h1 {
+    margin-top: 10px;
+}

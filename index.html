@@ -1,22 +1,170 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
-    <title>Hello, world!</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Company</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+      <a class="navbar-brand" href="#"><h3>LOGO</h3></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about-us"
+              >ABOUT US<span class="sr-only">(current)</span></a
+            >
+        </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#imp-alerts">Alerts</a>
+                </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TEAMS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOW WE HIRE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EVENTS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              JOBS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="#">
+              <a class="dropdown-item" href="#">Web Developer</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Software Developer</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Android Developer</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Human Resource (H.R)</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" disabled href="#"
+                >Looking for internships?</a
+              >
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input
+            class="form-control mr-sm-2"
+            type="text"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="jumbotron" id="jumbotron">
+      <h2 class="display-3">
+        "Alone we can do so little together we can do so much"
+      </h2>
+      <hr class="m-y-2" />
+      <p>Want to know more? Join our daily alerts!</p>
+      <form>
+        <div class="form-row align-items-center"></div>
+
+        <div class="col-auto">
+          <label class="sr-only" for="inlineFormInputGroup">Username</label>
+          <div class="input-group mb-2">
+            <div class="input-group-prepend">
+              <div class="input-group-text">@</div>
+            </div>
+            <input
+              type="text"
+              class="form-control"
+              id="inlineFormInputGroup"
+              placeholder="Username"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary mb-2">Sign Up</button>
+        </div>
+        <div class="col-auto">
+          <div class="col-auto"></div>
+        </div>
+      </form>
+    </div>
+    <div class="about-us" id="about-us">
+      <div class="row" id="appSummary">
+        <h1>About Us</h1>
+        <br />
+        <p class="lead">
+          we formed in 1995, we have become part of the UK’s largest hiring
+          platform, offering jobseekers the chance to search, view and apply for
+          over 280,000 live job adverts, in any industry, across the whole of
+          the UK. But with so much choice, we have developed tools and
+          technology to help you make finding the right job easier than ever. We
+          recommended jobs specific to your skills and experience, and with
+          instant alerts, we can help make sure that you never miss an
+          opportunity
+        </p>
+      </div>
+    </div>
+
+    <div class="imp-alerts" id="imp-alerts">
+      <h1>important alerts</h1>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
