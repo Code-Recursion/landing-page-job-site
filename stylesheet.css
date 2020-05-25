@@ -8,6 +8,7 @@ body {
 .navbar-brand {
   font-weight: bolder;
 }
+
 .nav-item {
   font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
     Geneva, Verdana, sans-serif;
@@ -199,7 +200,7 @@ body {
 }
 
 .carousel-item h2 {
-  padding:25px;
+  padding: 25px;
 }
 
 .team-container {
@@ -316,20 +317,20 @@ ul.sign-up-using {
 
 #gh {
   font-size: 2rem;
-   margin: 8px;
+  margin: 8px;
 }
 
 #ld {
   font-size: 2rem;
-   margin: 10px;
+  margin: 10px;
 }
 
 #fb {
   font-size: 2rem;
-   margin: 8px;
+  margin: 8px;
 }
 
 #ok {
   font-size: 2rem;
-   margin: 8px;
+  margin: 8px;
 }
