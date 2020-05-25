@@ -8,6 +8,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -35,7 +41,7 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" id="jobs">
       <a class="navbar-brand" href="#jobs" id="jobs" onclick="window.location.reload(true)";
-        > <h3>JOBS<i class="fab fa-airbnb"></i></h3
+        > <h3 data-aos="flip-up" >JOBS<i class="fab fa-airbnb"></i></h3
       ></a>
       <button
         class="navbar-toggler"
@@ -107,7 +113,7 @@
       </div>
     </nav>
 
-    <ul class="social">
+    <ul class="social" data-aos="fade-up" data-aos-duration="2000">
       <li>
         <a href="#"><i class="fab fa-linkedin"></i></a>
       </li>
@@ -123,17 +129,17 @@
     </ul>
 
     <div class="jumbotron" id="jumbotron">
-      <h2 class="display-3">
+      <h2 class="display-3" data-aos="fade-in" data-aos-duration="3000">
         "Alone we can do so little together we can do so much"
       </h2>
       <hr class="m-y-2" />
-      <p id="know-more">Want to know more? Join our daily alerts!</p>
+      <p id="know-more" data-aos="fade-up">Want to know more? Join our daily alerts!</p>
       <form>
         <div class="form-row align-items-center"></div>
 
-        <div class="col-auto">
+        <div class="col-auto" >
           <label class="sr-only" for="inlineFormInputGroup">Username</label>
-          <div class="input-group mb-2">
+          <div class="input-group mb-2" data-aos="fade-up" >
             <div class="input-group-prepend">
               <div class="input-group-text">@</div>
             </div>
@@ -144,7 +150,7 @@
               placeholder="Username"
             />
           </div>
-          <button type="submit" class="btn btn-primary mb-2">Sign Up</button>
+          <button type="submit" class="btn btn-primary mb-2" data-aos="fade-up" >Sign Up</button>
         </div>
         <div class="col-auto">
           <div class="col-auto"></div>
@@ -152,10 +158,10 @@
       </form>
     </div>
     <div class="about-us" id="about-us">
-      <h2>Abouts Us</h2>
-      <div class="row" id="appSummary">
+      <h2 data-aos="fade-up">Abouts Us</h2>
+      <div class="row" id="appSummary" data-aos="fade-in" data-aos-duration="2000">
         <br />
-        <p class="lead">
+        <p class="lead" >
           we formed in 1995, we have become part of the UK’s largest hiring
           platform, offering jobseekers the chance to search, view and apply for
           over 280,000 live job adverts, in any industry, across the whole of
@@ -168,8 +174,8 @@
       </div>
     </div>
 
-    <div class="imp-alerts" id="imp-alerts">
-      <h1>Alerts</h1>
+    <div class="imp-alerts" id="imp-alerts" data-aos="fade-up" data-aos-duration="2000">
+      <h1 data-aos="fade-up">Alerts</h1>
       <div class="scrolling-box">
         <ul>
           <li id="1">
@@ -208,8 +214,8 @@
       </div>
     </div>
 
-    <div class="location" id="location">
-      <h1>Locations</h1>
+    <div class="location" id="location" data-aos="fade-left" data-aos-duration="1000" >
+      <h1 data-aos="fade-up">Locations</h1>
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -288,19 +294,19 @@
     </div>
 
     <div class="team-container" id="team">
-      <h1>Teams</h1>
-      <p>
+      <h1 data-aos="fade-up">Teams</h1>
+      <p data-aos="fade-in" data-aos-duration="2000">
         "Great things in business are never done by one person. They're done by
         a team of people."
       </p>
-      <div class="card-group">
+      <div class="card-group" data-aos="fade-in" data-aos-duration="3000">
         <div class="card">
           <img
             class="card-img-top"
             src="https://nyintl.net/site/wp-content/uploads/2015/04/massimo-baldini.jpg"
             alt="Card image cap"
           />
-          <div class="card-body">
+          <div class="card-body" data-aos="fade-right" >
             <h3 class="card-title">Peter Gregry</h3>
             <p class="card-text">
               dolor sit, amet consectetur adipisicing elit. Voluptate,
@@ -312,12 +318,12 @@
           </div>
         </div>
         <div class="card">
-          <img
+          <img 
             class="card-img-top"
             src="https://assets.entrepreneur.com/content/3x2/2000/20200327202534-HERO-MATTCLARK-EditorialFeature-Entrepreneurcom.jpeg"
             alt="Card image cap"
           />
-          <div class="card-body">
+          <div class="card-body" data-aos="fade-up">
             <h3 class="card-title">Bruce Wayne</h3>
             <p class="card-text">
               Lorem, ipsum dolor sit consectetur adipisicing elit. Consectetur
@@ -334,8 +340,8 @@
             src="https://s17026.pcdn.co/wp-content/uploads/sites/13/2017/02/Julien-Foussard.png"
             alt="Card image cap"
           />
-          <div class="card-body">
-            <h3 class="card-title">Gavin Belson</h3>
+          <div class="card-body" data-aos="fade-left">
+            <h3 class="card-title" data-aos="fade-left">Gavin Belson</h3>
             <p class="card-text">
               dolor sit amet consectetur adipisicing elit. Voluptas ea beatae
               magni incidunt?
@@ -348,12 +354,12 @@
       </div>
     </div>
 
-    <div class="contact-us" id="contact-us">
-      <h1>Contact Us</h1>
+    <div class="contact-us" id="contact-us" data="fade-in" >
+      <h1 data-aos="fade-up">Contact Us</h1>
       <form class="needs-validation">
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
-          <input
+          <input data-aos="fade-in"
             type="email"
             class="form-control"
             id="exampleFormControlInput1"
@@ -361,7 +367,7 @@
             required
           />
         </div>
-        <div class="form-group">
+        <div class="form-group" data-aos="fade-in" >
           <label for="exampleFormControlInput1">Full Name</label>
           <input
             type="text"
@@ -371,7 +377,7 @@
             required
           />
         </div>
-        <div class="form-group">
+        <div class="form-group" data-aos="fade-in">
           <label for="exampleFormControlTextarea1"
             >What would you like to Ask us?</label
           >
@@ -391,7 +397,7 @@
           />
         </div>
 
-        <div class="form-group">
+        <div class="form-group" data-aos="fade-left">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
@@ -406,7 +412,7 @@
           <!--Grid column-->
           <br>
           <div class="col-md-6 mb-4">
-            <form class="input-group">
+            <form class="input-group" data-aos="fade-left" >
               <input
                 type="text"
                 class="form-control form-control-sm"
@@ -424,7 +430,7 @@
               </form>
             </div>
             
-            <ul class="sign-up-using">
+            <ul class="sign-up-using" data-aos="fade-left">
               <li><h4>or </h4></li>
                 <li><i id="gh" class="fab fa-google"></i></li>
                 <li><i id="gg" class="fab fa-github"></i></li>
@@ -453,7 +459,7 @@
 
       <!-- Grid column -->
       <br>
-      <div class="col-md-6 mt-md-0 mt-3">
+      <div class="col-md-6 mt-md-0 mt-3" data-aos="fade-out">
 
         <!-- Content -->
         <h3 class="text-uppercase"><strong> Content</strong></h3>
@@ -466,7 +472,7 @@
       <hr class="clearfix w-100 d-md-none pb-3">
 
       <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3">
+      <div class="col-md-3 mb-md-0 mb-3" data-aos="fade-in">
 
         <!-- Links -->
         <h5 class="text-uppercase"><strong>Website</strong></h5>
@@ -494,6 +500,7 @@
   <!-- Footer Links -->
   
       <div class="footer-copyright text-center py-3">
+   
         © 2020 Copyright
        
         <a href="https://code-recursion.github.io"> Ajay Singh</a>
@@ -520,5 +527,9 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
