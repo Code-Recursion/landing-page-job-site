@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
 }
@@ -7,23 +8,66 @@ html, body {
   font-weight: bolder;
 }
 .nav-item {
-  font-family: sans-serif;
+  font-family: "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+    Geneva, Verdana, sans-serif;
   font-size: 1rem;
+  padding: unset;
   font-style: bold;
   font-weight: bolder;
 }
 
 #navbarDropdownMenuLink {
-  background-color: rgb(173, 238, 111);
-  color: white;
-  font-weight: bolder;
+  color: black;
+  padding-left: 10px;
+  border: 2px #4dff00 solid;
   border-radius: 3px;
-  padding: 5px;
-  /* display: inline; */
+}
+
+.social {
+  padding: 0;
+  z-index: 2;
+  text-align: left;
+  align-items: flex-start;
+  margin-top: 50px;
+  position: fixed;
+  list-style: none;
+  flex-direction: column;
+  display: flex;
+  top: 50%;
+  border-radius: 3px;
+  /* -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);*/
+  transform: translateY(-50%);
+}
+
+.social a {
+  display: block;
+  text-align: center;
+  padding: 6px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.fa-linkedin {
+  color: rgb(6, 101, 133);
+  font-size: 1.8rem;
+}
+.fa-facebook {
+  color: blue;
+  font-size: 1.8rem;
+}
+.fa-twitter {
+  color: rgb(43, 19, 251);
+  font-size: 1.8rem;
+}
+.fa-google {
+  color: rgb(255, 0, 0);
+  font-size: 1.8rem;
 }
 
 .jumbotron {
-  background-image: linear-gradient(blue, white);
+  background-image: linear-gradient(lightblue, white);
   text-align: center;
   margin-top: 60px;
 }
@@ -31,9 +75,6 @@ html, body {
 .jumbotron h2 {
   margin: auto;
   width: 75%;
-}
-#email {
-  width: 300px;
 }
 
 #appSummary {
@@ -48,7 +89,6 @@ html, body {
 }
 
 .about-us {
-  overflow: auto;
   position: relative;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -57,48 +97,83 @@ html, body {
   background-size: cover;
   padding: 40px;
   background-image: url("https://images.livemint.com/rf/Image-621x414/LiveMint/Period1/2013/08/17/Photos/team_work--621x414.jpg");
-  margin: auto;
 }
 
+.about-us h2 {
+  padding: 16px;
+  color: #000;
+  margin: 5px;
+  background: white;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
 .about-us p {
-  width: 65%;
-  background: rgb(218, 241, 248);
+  border-radius: 5px;
+  background: rgb(133, 220, 246);
   color: black;
   padding: 20px;
   margin: auto;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
- 
+  max-width: 80%;
 }
-
-.about-us h1 {
-  padding: 15px;
-  color: black;
-  margin: 25px;
-  background: white;
-  display: block;
-  width: 65%;
-  margin: auto;
-  border-top-left-radius: 10px;
-  border-top-left-radius: 10px;
+#appSummary {
+  text-align: center;
+  margin-top: 5px;
 }
-
 
 .imp-alerts {
-    width:500px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height:500px;
-    width: 75%;
-    background-image: linear-gradient(45deg, rgb(156, 226, 250), lightpink);
-    border:2px solid black;
-    margin:auto;
-    border-radius: 5px;
-    margin-top: 50px;
+  width:80%;
+  padding-top: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin: auto;
+  box-sizing:border-box;
 }
 
+.scrolling-box {
+  background-color: #eaeaea;
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+}
 
 .imp-alerts h1 {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+.location {
+  max-width:75%;
+  margin: auto;
+  padding: 5px;
+}
+
+.location h1 {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.carousel-indicators li {
+  background: blue;
+  display: inline-block;
+  border: 3px #000 blue ;
+}
+
+.box {
+  margin-top: 200px;
+  background-color: red;
+  width:500px;
+  height: 500px;;
 }
