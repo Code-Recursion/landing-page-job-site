@@ -146,7 +146,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20%;
+  height: 30%;
+  justify-content: space-between;
 }
 
 .imp-alerts h1 {
