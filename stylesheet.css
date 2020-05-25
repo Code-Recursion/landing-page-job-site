@@ -47,7 +47,6 @@ body {
   /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);*/
   transform: translateY(-50%);
-  border: 1px black solid;
   margin-left: 2px;
 }
 
