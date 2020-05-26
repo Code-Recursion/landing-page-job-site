@@ -11,10 +11,8 @@
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-		<!-- <link rel="stylesheet" href="http://localhost:3002/dist/aos.css" /> -->
 		<link rel="stylesheet" href="dist/css/styles.css" />
     <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -51,9 +49,10 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light" id="jobs">
       <a class="navbar-brand" href="#jobs" id="jobs" onclick="window.location.reload(true)";
-        > <h3 data-aos="flip-up" >JOBS<i class="fab fa-airbnb"></i></h3
+        > <h3 data-aos="fade-in">JOBS <i class="fab fa-airbnb"></i></h3
       ></a>
       <button
+      data-aos="flip-up"
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -64,24 +63,24 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about-us"
+      <div class="collapse navbar-collapse" id="navbarCollapse"  >
+        <ul class="navbar-nav mr-auto"  >
+          <li class="nav-item active"  >
+            <a class="nav-link" href="#about-us"  data-aos="fade-right"
               >About Us<span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#imp-alerts">Alerts</a>
+            <a class="nav-link" href="#imp-alerts" data-aos="fade-right">Alerts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#location">Locations</a>
+            <a class="nav-link" href="#location" data-aos="fade-right">Locations</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
+            <a class="nav-link" href="#team" data-aos="fade-right">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact-us">Contact Us</a>
+            <a class="nav-link" href="#contact-us" data-aos="fade-right">Contact Us</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -91,7 +90,8 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-            >
+              fad
+              >
               JOBS
             </a>
             <div class="dropdown-menu" aria-labelledby="#">
@@ -109,7 +109,7 @@
             </div>
           </li>
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
+        <form class="form-inline mt-2 mt-md-0" data-aos="fade-left">
           <input
             class="form-control mr-sm-2"
             type="text"
@@ -123,7 +123,7 @@
       </div>
     </nav>
 
-    <ul class="social" data-aos="fade-up" data-aos-duration="2000">
+    <ul class="social" >
       <li>
         <a href="#"><i class="fab fa-linkedin"></i></a>
       </li>
@@ -139,16 +139,16 @@
     </ul>
 
     <div class="jumbotron" id="jumbotron">
-      <h2 class="display-3" data-aos="fade-in" data-aos-duration="3000">
+      <h2 class="display-3" data-aos="fade-in" data-aos-duration="2000" >
         "Alone we can do so little together we can do so much"
       </h2>
       <hr class="m-y-2" />
-      <p id="know-more" data-aos="fade-up">Want to know more? Join our daily alerts!</p>
+      <p id="know-more">Want to know more? Join our daily alerts!</p>
       <form>
         <div class="form-row align-items-center"></div>
 
         <div class="col-auto" >
-          <label class="sr-only" for="inlineFormInputGroup">Username</label>
+          <label class="sr-only" for="inlineFormInputGroup" >Username</label>
           <div class="input-group mb-2" data-aos="fade-up" >
             <div class="input-group-prepend">
               <div class="input-group-text">@</div>
@@ -169,9 +169,9 @@
     </div>
     <div class="about-us" id="about-us">
       <h2 data-aos="fade-up">Abouts Us</h2>
-      <div class="row" id="appSummary" data-aos="fade-in" data-aos-duration="2000">
+      <div class="row" id="appSummary">
         <br />
-        <p class="lead" >
+        <p class="lead" data-aos="fade-up">
           we formed in 1995, we have become part of the UK’s largest hiring
           platform, offering jobseekers the chance to search, view and apply for
           over 280,000 live job adverts, in any industry, across the whole of
@@ -184,9 +184,9 @@
       </div>
     </div>
 
-    <div class="imp-alerts" id="imp-alerts" data-aos="fade-up" data-aos-duration="2000">
+    <div class="imp-alerts" id="imp-alerts">
       <h1 data-aos="fade-up">Alerts</h1>
-      <div class="scrolling-box">
+      <div class="scrolling-box" data-aos="fade-up" data-aos-duraion="2000"  >
         <ul>
           <li id="1">
             This is the firs Lorem Lorem ipsum dolor sit amet consectetur.ipsum
@@ -224,8 +224,8 @@
       </div>
     </div>
 
-    <div class="location" id="location" data-aos="fade-left" data-aos-duration="1000" >
-      <h1 data-aos="fade-up">Locations</h1>
+    <div class="location" id="location">
+      <h1>Locations</h1>
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -304,19 +304,19 @@
     </div>
 
     <div class="team-container" id="team">
-      <h1 data-aos="fade-up">Teams</h1>
-      <p data-aos="fade-in" data-aos-duration="2000">
+      <h1>Teams</h1>
+      <p >
         "Great things in business are never done by one person. They're done by
         a team of people."
       </p>
-      <div class="card-group" data-aos="fade-in" data-aos-duration="3000">
-        <div class="card">
+      <div class="card-group">
+        <div class="card"  data-aos="fade-up" data-aos-duraion="3000">
           <img
             class="card-img-top"
             src="https://nyintl.net/site/wp-content/uploads/2015/04/massimo-baldini.jpg"
             alt="Card image cap"
           />
-          <div class="card-body" data-aos="fade-right" >
+          <div class="card-body" >
             <h3 class="card-title">Peter Gregry</h3>
             <p class="card-text">
               dolor sit, amet consectetur adipisicing elit. Voluptate,
@@ -327,13 +327,13 @@
             <small class="text-muted">Last updated 3 mins ago</small>
           </div>
         </div>
-        <div class="card">
+        <div class="card"  data-aos="fade-up"  data-aos-duraion="3000">
           <img 
             class="card-img-top"
             src="https://assets.entrepreneur.com/content/3x2/2000/20200327202534-HERO-MATTCLARK-EditorialFeature-Entrepreneurcom.jpeg"
             alt="Card image cap"
           />
-          <div class="card-body" data-aos="fade-up">
+          <div class="card-body">
             <h3 class="card-title">Bruce Wayne</h3>
             <p class="card-text">
               Lorem, ipsum dolor sit consectetur adipisicing elit. Consectetur
@@ -344,14 +344,14 @@
             <small class="text-muted">Last updated 3 mins ago</small>
           </div>
         </div>
-        <div class="card">
+        <div class="card"  data-aos="fade-up" data-aos-duraion="3000">
           <img
             class="card-img-top"
             src="https://s17026.pcdn.co/wp-content/uploads/sites/13/2017/02/Julien-Foussard.png"
             alt="Card image cap"
           />
-          <div class="card-body" data-aos="fade-left">
-            <h3 class="card-title" data-aos="fade-left">Gavin Belson</h3>
+          <div class="card-body">
+            <h3 class="card-title">Gavin Belson</h3>
             <p class="card-text">
               dolor sit amet consectetur adipisicing elit. Voluptas ea beatae
               magni incidunt?
@@ -407,7 +407,7 @@
           />
         </div>
 
-        <div class="form-group" data-aos="fade-left">
+        <div class="form-group" data-aos="fade-in" data-aos-duraion="3000">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
@@ -418,11 +418,11 @@
         <!-- Footer Elements -->
         <div class="container">
         <!--Grid row-->
-        <div class="row">          
+        <div class="row" >          
           <!--Grid column-->
           <br>
-          <div class="col-md-6 mb-4">
-            <form class="input-group" data-aos="fade-left" >
+          <div class="col-md-6 mb-4"  data-aos="fade-right">
+            <form class="input-group">
               <input
                 type="text"
                 class="form-control form-control-sm"
@@ -440,7 +440,7 @@
               </form>
             </div>
             
-            <ul class="sign-up-using" data-aos="fade-left">
+            <ul class="sign-up-using"  data-aos="fade-right">
               <li><h4>or </h4></li>
                 <li><i id="gh" class="fab fa-google"></i></li>
                 <li><i id="gg" class="fab fa-github"></i></li>
@@ -452,13 +452,6 @@
         </div>
         <!--Grid row-->
       </div>
-      <!-- Footer Elements -->
-
-      <!-- Copyright -->
-    
-      <!-- Copyright -->
-    
-      <!-- Footer -->
 <footer class="page-footer font-small blue pt-4">
 
   <!-- Footer Links -->
@@ -469,11 +462,11 @@
 
       <!-- Grid column -->
       <br>
-      <div class="col-md-6 mt-md-0 mt-3" data-aos="fade-out">
+      <div class="col-md-6 mt-md-0 mt-3">
 
         <!-- Content -->
-        <h3 class="text-uppercase"><strong> Content</strong></h3>
-        <p>XYZ, creating Hundreds of Jobs opportunities </p>
+        <h3 class="text-uppercase"  data-aos="fade-right"><strong> Content</strong></h3>
+        <p  data-aos="fade-right">XYZ, creating Hundreds of Jobs opportunities </p>
 
       </div>
       <br>
@@ -482,10 +475,10 @@
       <hr class="clearfix w-100 d-md-none pb-3">
 
       <!-- Grid column -->
-      <div class="col-md-3 mb-md-0 mb-3" data-aos="fade-in">
+      <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase"><strong>Website</strong></h5>
+        <h5 class="text-uppercase" data-aos="fade-right"><strong>Website</strong></h5>
 
         <ul class="list-unstyled">
           <li>
@@ -509,10 +502,8 @@
   </div>
   <!-- Footer Links -->
   
-      <div class="footer-copyright text-center py-3">
-   
+      <div class="footer-copyright text-center py-2">
         © 2020 Copyright
-       
         <a href="https://code-recursion.github.io"> Ajay Singh</a>
       </div>
 </footer>
@@ -539,7 +530,7 @@
     ></script>
 
     <script>
-      AOS.init({
+    AOS.init({
 				easing: 'ease-out-back',
 				duration: 1000
 			});
@@ -551,24 +542,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- <script src="http://localhost:3002/dist/aos.js"></script> -->
-
-<script>
-  AOS.init({
-    easing: 'ease-out-back',
-    duration: 1000
-  });
-</script>
-
-<script>
-  hljs.initHighlightingOnLoad();
-
-  $('.hero__scroll').on('click', function(e) {
-    $('html, body').animate({
-      scrollTop: $(window).height()
-    }, 1200);
-  });
-</script>
-
+<!-- <script src="http://localhost:3002/dist/aos.js"> -->
+<!-- </script> -->
   </body>
 </html>

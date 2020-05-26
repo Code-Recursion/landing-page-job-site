@@ -1,10 +1,16 @@
 html,
 body {
-  background-size: cover;
   font-family: "Rubik", sans-serif;
   scroll-behavior: smooth;
 }
 
+nav {
+  box-shadow: 0px -11px 15px 5px black;
+}
+
+.fixed-top {
+  top: 5px;
+}
 .navbar-brand {
   font-weight: bolder;
 }
@@ -36,18 +42,16 @@ body {
   z-index: 2;
   text-align: left;
   align-items: flex-start;
-  margin-top: 50px;
+  margin-top: 20%;
   position: fixed;
   list-style: none;
   flex-direction: column;
   display: flex;
   top: 50%;
   border-radius: 3px;
-  /* -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);*/
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-
-  margin-left: 2px;
 }
 
 .social a {
@@ -60,19 +64,19 @@ body {
 }
 
 .fa-linkedin {
-  color: rgb(6, 101, 133);
+  color: #0077b7;
   font-size: 1.8rem;
 }
 .fa-facebook {
-  color: blue;
+  color: #1877f2;
   font-size: 1.8rem;
 }
 .fa-twitter {
-  color: rgb(43, 19, 251);
+  color: #31b4ef;
   font-size: 1.8rem;
 }
 .fa-google {
-  color: rgb(255, 0, 0);
+  color: #df493a;
   font-size: 1.8rem;
 }
 
