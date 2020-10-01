@@ -43,6 +43,7 @@ nav {
   text-align: left;
   align-items: flex-start;
   margin-top: 20%;
+  margin-top: 180px;
   position: fixed;
   list-style: none;
   flex-direction: column;
@@ -254,12 +255,12 @@ nav {
   width: 100%;
   margin-top: 50px;
   padding-top: 50px;
-  background: white;
+  background: rgb(230, 230, 230);
 }
 
 .footer .footer-copyright {
   color: white;
-  background: blue;
+  background: #213e3b;
 }
 
 .footer .footer-copyright a {
